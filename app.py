@@ -47,5 +47,34 @@ def add():
         return redirect(url_for('index'))
     return render_template('add.html')
 
+@app.route('/delete/<post_id>', methods=['POST'])
+def delete(post_id):
+    print(f"Received DELETE request for post ID: {post_id}")  # Debugging
+
+    blog_posts = open_json('blog_storage.json')
+    initial_count = len(blog_posts)
+
+    # Filter out the post with the given UUID
+    updated_posts = [post for post in blog_posts if post["id"] != post_id]
+
+    if len(updated_posts) < initial_count:
+        print(f"Post {post_id} deleted successfully.")  # Debugging
+    else:
+        print(f"Post {post_id} not found or deletion failed.")  # Debugging
+
+    print("Updated JSON Data:", updated_posts)  # Debugging
+
+    save_json('blog_storage.json', updated_posts)  # Save updated JSON
+
+    # Re-load JSON to confirm deletion
+    reloaded_posts = open_json('blog_storage.json')
+    print("Reloaded JSON Data:", reloaded_posts)
+
+    return redirect(url_for('index'))
+
+
+
+
+
 if __name__ == '__main__':
     app.run()

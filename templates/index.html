@@ -9,18 +9,18 @@
 <body>
     <h1>Welcome to the Ninja Blog!</h1>
 
-<a href="/add">Add a new post</a>
-        <br><br>
+    <a href="/add">Add New Post</a>
+    <br><br>
 
     {% for post in posts|reverse %}
     <div class="post">
         <h2>{{ post.title }}</h2>
         <p><em>Written by {{ post.author }}</em></p>
         <p>{{ post.content }}</p>
+        <form action="/delete/{{ post.id }}" method="POST" style="display:inline;">
+            <button type="submit">Delete</button>
+        </form>
     </div>
     {% endfor %}
-
-
-
 </body>
 </html>
