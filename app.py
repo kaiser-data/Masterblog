@@ -1,16 +1,17 @@
-from flask import Flask
+import json
+
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-[
-sample_structure    {'id': 1, 'author': 'John Doe', 'title': 'First Post', 'content': 'This is my first post.'},
-    {'id': 2, 'author': 'Jane Doe', 'title': 'Second Post', 'content': 'This is another post.'},
-    # More blog posts can go here...
-]
-@app.route('/')
-def hello_world():  # put application's code here
-    return 'Hello World!'
 
+def open_json(filename):
+    with open(filename) as f:
+        return json.load(f)
+@app.route('/')
+def index():
+    blog_posts = open_json('blog_storage.json')
+    return render_template('index.html', posts=blog_posts)
 
 if __name__ == '__main__':
     app.run()

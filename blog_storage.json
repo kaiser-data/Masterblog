@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "author": "John Doe",
+        "title": "First Post",
+        "content": "This is my first post."
+    },
+    {
+        "id": 2,
+        "author": "Jane Doe",
+        "title": "Second Post",
+        "content": "This is another post."
+    },
+    {
+        "id": 3,
+        "author": "Alice Smith",
+        "title": "Third Post",
+        "content": "Here is yet another post."
+    },
+    {
+        "id": 4,
+        "author": "Bob Johnson",
+        "title": "Fourth Post",
+        "content": "Posting my thoughts online."
+    },
+    {
+        "id": 5,
+        "author": "Charlie Brown",
+        "title": "Fifth Post",
+        "content": "Just another random post."
+    },
+    {
+        "id": 6,
+        "author": "David Lee",
+        "title": "Sixth Post",
+        "content": "Sharing my daily experiences."
+    },
+    {
+        "id": 7,
+        "author": "Emma Watson",
+        "title": "Seventh Post",
+        "content": "A reflection on life."
+    },
+    {
+        "id": 8,
+        "author": "George Martin",
+        "title": "Eighth Post",
+        "content": "Writing about my latest book."
+    },
+    {
+        "id": 9,
+        "author": "Hannah Baker",
+        "title": "Ninth Post",
+        "content": "Thoughts on current events."
+    },
+    {
+        "id": 10,
+        "author": "Ian Curtis",
+        "title": "Tenth Post",
+        "content": "Musings on music and art."
+    },
+    {
+        "id": 11,
+        "author": "Julia Roberts",
+        "title": "Eleventh Post",
+        "content": "Discussing my favorite movies."
+    },
+    {
+        "id": 12,
+        "author": "Kevin Smith",
+        "title": "Twelfth Post",
+        "content": "Tips on screenwriting."
+    },
+    {
+        "id": 13,
+        "author": "Laura Palmer",
+        "title": "Thirteenth Post",
+        "content": "A mysterious post."
+    },
+    {
+        "id": 14,
+        "author": "Michael Jordan",
+        "title": "Fourteenth Post",
+        "content": "Basketball memories."
+    },
+    {
+        "id": 15,
+        "author": "Nancy Drew",
+        "title": "Fifteenth Post",
+        "content": "Solving a new mystery."
+    }
+]
