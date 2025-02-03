@@ -1,32 +1,44 @@
 [
     {
-        "id": "509d4f3a-2de4-45ac-903d-2b494ae1ed6e",
-        "author": "dd",
-        "title": "1",
-        "content": "dklkl"
+        "id": "52369025-232d-4e13-998e-a16b143a566e",
+        "author": "Shadow Ninja",
+        "title": "The Art of Silent Movement",
+        "content": "Mastering the ancient art of moving unseen and unheard.",
+        "likes": 12
     },
     {
-        "id": "9d0f81cd-4a5a-4c72-9105-34e628151611",
-        "author": "22",
-        "title": "2",
-        "content": "233"
+        "id": "fb2b76ed-fb3b-4031-88f4-ec45194e4529",
+        "author": "Blade Master",
+        "title": "Katana Techniques for Combat",
+        "content": "Exploring the deadly precision of katana strikes.",
+        "likes": 20
     },
     {
-        "id": "675e044d-5f07-4a90-8636-d9db912b273c",
-        "author": "4",
-        "title": "4",
-        "content": "44"
+        "id": "53591d07-00bc-429e-8de1-c05be54be882",
+        "author": "Stealth Sensei",
+        "title": "The Science of Camouflage",
+        "content": "Blending into the shadows is not just a skill, it's a way of life.",
+        "likes": 9
     },
     {
-        "id": "b606dcd8-b502-4b19-98e8-14e99d0d4f8b",
-        "author": "1",
-        "title": "1",
-        "content": "1"
+        "id": "ec182d28-371e-4c8d-a5cf-0e05f9a3f1b3",
+        "author": "Zen Warrior",
+        "title": "Meditation for Battle Readiness",
+        "content": "A calm mind leads to swift and decisive actions in combat.",
+        "likes": 15
     },
     {
-        "id": "5fded41c-36ca-4bf8-8e56-3af8d7820d2d",
-        "author": "1",
-        "title": "1",
-        "content": "1"
+        "id": "e49c6dba-923b-4f32-af65-f95801ba5e35",
+        "author": "Shuriken Master",
+        "title": "Perfecting the Throw",
+        "content": "A guide to throwing ninja stars with pinpoint accuracy.",
+        "likes": 20
+    },
+    {
+        "id": "02927973-689f-46a5-b184-ad1f8d0d1773",
+        "author": "Silent Assassin",
+        "title": "Night Missions and Tactical Planning",
+        "content": "Executing flawless night operations with strategic precision.",
+        "likes": 23
     }
 ]

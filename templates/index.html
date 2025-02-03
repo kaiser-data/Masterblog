@@ -15,13 +15,16 @@
     {% for post in posts|reverse %}
     <div class="post">
         <h2>{{ post.title }}</h2>
-        <p><em>Written by {{ post.author }}</em></p>
         <p>{{ post.content }}</p>
+        <p><em>Written by {{ post.author }}</em></p>
         <form action="/delete/{{ post.id }}" method="POST" style="display:inline;">
             <button type="submit">Delete</button>
         </form>
         <form action="/update/{{ post.id }}" method="GET" style="display:inline;">
             <button type="submit">Update</button>
+        </form>
+        <form action="{{ url_for('like', post_id=post.id) }}" method="POST" style="display:inline;">
+            <button type="submit">Like ({{ post.likes if 'likes' in post else 0 }})</button>
         </form>
     </div>
     {% endfor %}
