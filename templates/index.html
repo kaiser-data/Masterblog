@@ -20,6 +20,9 @@
         <form action="/delete/{{ post.id }}" method="POST" style="display:inline;">
             <button type="submit">Delete</button>
         </form>
+        <form action="/update/{{ post.id }}" method="GET" style="display:inline;">
+            <button type="submit">Update</button>
+        </form>
     </div>
     {% endfor %}
 </body>

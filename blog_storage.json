@@ -1,85 +1,32 @@
 [
     {
-        "id": "a16d22ec-ff15-4e3b-b904-8be8bb3792ed",
-        "author": "John Doe",
-        "title": "First Post",
-        "content": "This is my first post."
+        "id": "509d4f3a-2de4-45ac-903d-2b494ae1ed6e",
+        "author": "dd",
+        "title": "1",
+        "content": "dklkl"
     },
     {
-        "id": "8e74b599-1411-4f59-ba74-235617701417",
-        "author": "Jane Doe",
-        "title": "Second Post",
-        "content": "This is another post."
+        "id": "9d0f81cd-4a5a-4c72-9105-34e628151611",
+        "author": "22",
+        "title": "2",
+        "content": "233"
     },
     {
-        "id": "6bc072af-dbbe-42a1-8285-2fe650be895e",
-        "author": "Alice Smith",
-        "title": "Third Post",
-        "content": "Here is yet another post."
+        "id": "675e044d-5f07-4a90-8636-d9db912b273c",
+        "author": "4",
+        "title": "4",
+        "content": "44"
     },
     {
-        "id": "6092aff0-99b6-4ef2-9000-e61598071f58",
-        "author": "Bob Johnson",
-        "title": "Fourth Post",
-        "content": "Posting my thoughts online."
+        "id": "b606dcd8-b502-4b19-98e8-14e99d0d4f8b",
+        "author": "1",
+        "title": "1",
+        "content": "1"
     },
     {
-        "id": "795c062e-7566-44ff-9c30-824c3fe3acfd",
-        "author": "David Lee",
-        "title": "Sixth Post",
-        "content": "Sharing my daily experiences."
-    },
-    {
-        "id": "594eb71d-851f-432b-ae96-25b5cc665e6d",
-        "author": "Emma Watson",
-        "title": "Seventh Post",
-        "content": "A reflection on life."
-    },
-    {
-        "id": "db71940c-573a-4e96-b83c-bf47e45d03cf",
-        "author": "George Martin",
-        "title": "Eighth Post",
-        "content": "Writing about my latest book."
-    },
-    {
-        "id": "2f4f838f-65f8-4566-898a-62daacce2d15",
-        "author": "Hannah Baker",
-        "title": "Ninth Post",
-        "content": "Thoughts on current events."
-    },
-    {
-        "id": "ed55abaa-4a6e-4607-9f8b-3099178dca8a",
-        "author": "Ian Curtis",
-        "title": "Tenth Post",
-        "content": "Musings on music and art."
-    },
-    {
-        "id": "cfd5c5ef-8ae1-47f3-9553-dad4f3e2e6b3",
-        "author": "Julia Roberts",
-        "title": "Eleventh Post",
-        "content": "Discussing my favorite movies."
-    },
-    {
-        "id": "38b927b5-ea7a-44cd-9994-9eb6f88e4dbc",
-        "author": "Kevin Smith",
-        "title": "Twelfth Post",
-        "content": "Tips on screenwriting."
-    },
-    {
-        "id": "30a60398-e5ef-4ef7-bcc1-381125f9674a",
-        "author": "Laura Palmer",
-        "title": "Thirteenth Post",
-        "content": "A mysterious post."
-    },
-    {
-        "id": "0b2441e8-6b64-4dd4-aaab-ecb3f906cbf1",
-        "author": "Nancy Drew",
-        "title": "Fifteenth Post",
-        "content": "Solving a new mystery."
-    },
-    {
-        "id": "d084918f-768d-458d-9fb4-35c29f65631d",
-        "title": "Hi there",
-        "content": "msksk"
+        "id": "5fded41c-36ca-4bf8-8e56-3af8d7820d2d",
+        "author": "1",
+        "title": "1",
+        "content": "1"
     }
 ]

@@ -3,25 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add New Ninja Post</title>
+    <title>Update Post</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>Add a New Ninja Post</h1>
-    <form action="{{ url_for('add') }}" method="POST">
+    <h1>Update Post</h1>
+
+    <form action="{{ url_for('update', post_id=post.id) }}" method="POST">
         <label for="title">Post Title:</label>
-        <input type="text" id="title" name="title" required>
+        <input type="text" id="title" name="title" value="{{ post.title }}" required>
         <br>
 
         <label for="author">Author:</label>
-        <input type="text" id="author" name="author" required>
+        <input type="text" id="author" name="author" value="{{ post.author }}" required>
         <br>
 
         <label for="content">Post Content:</label>
-        <textarea id="content" name="content" rows="4" required></textarea>
+        <textarea id="content" name="content" rows="4" required>{{ post.content }}</textarea>
         <br>
 
-        <button type="submit">Add Post</button>
+        <button type="submit">Update Post</button>
     </form>
 
     <br>
